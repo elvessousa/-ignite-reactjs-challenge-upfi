@@ -9,7 +9,7 @@ import { Loading } from '../components/Loading';
 import { Error } from '../components/Error';
 
 export default function Home(): JSX.Element {
-  const {
+  /* const {
     data,
     isLoading,
     isError,
@@ -30,13 +30,13 @@ export default function Home(): JSX.Element {
   // TODO RENDER LOADING SCREEN
 
   // TODO RENDER ERROR SCREEN
-
+   */
   return (
     <>
       <Header />
 
       <Box maxW={1120} px={20} mx="auto" my={20}>
-        <CardList cards={formattedData} />
+        {/*<CardList cards={formattedData} /> *}
         {/* TODO RENDER LOAD MORE BUTTON IF DATA HAS NEXT PAGE */}
       </Box>
     </>
