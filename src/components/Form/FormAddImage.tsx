@@ -80,7 +80,7 @@ export function FormAddImage({ closeModal }: FormAddImageProps): JSX.Element {
         });
         return;
       }
-      // TODO EXECUTE ASYNC MUTATION
+
       await mutation.mutateAsync(data);
 
       toast({
